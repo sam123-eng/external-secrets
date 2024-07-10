@@ -16,3 +16,4 @@ PyYAML==5.3.1 # 6.0 is broken: https://github.com/yaml/pyyaml/issues/601
 six==1.16.0
 tornado==6.1
 mkdocs-macros-plugin==0.7.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
